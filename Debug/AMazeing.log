@@ -1,0 +1,3 @@
+﻿  AMazeing.cpp
+d:\projekty\vs\amazeing\amazeing\amazeing.cpp(15): error C2440: "return": nie można konwertować z "void (__cdecl *)(void)" na "int"
+  d:\projekty\vs\amazeing\amazeing\amazeing.cpp(15): note: Brak kontekstu, w którym ta konwersja jest możliwa

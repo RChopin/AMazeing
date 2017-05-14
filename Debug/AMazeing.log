@@ -1,3 +1,6 @@
 ﻿  AMazeing.cpp
-d:\projekty\vs\amazeing\amazeing\amazeing.cpp(15): error C2440: "return": nie można konwertować z "void (__cdecl *)(void)" na "int"
-  d:\projekty\vs\amazeing\amazeing\amazeing.cpp(15): note: Brak kontekstu, w którym ta konwersja jest możliwa
+d:\projekty\vs\amazeing\amazeing\amazeing.h(6): error C2332: „class”: brak nazwy tagu
+d:\projekty\vs\amazeing\amazeing\amazeing.h(6): error C2575: "Enemy": tylko funkcje członkowskie i typy podstawowe mogą być wirtualne
+d:\projekty\vs\amazeing\amazeing\amazeing.h(6): error C2027: wykorzystanie niezdefiniowanego przez użytkownika typu "<unnamed-tag>"
+  d:\projekty\vs\amazeing\amazeing\amazeing.h(6): note: zobacz deklarację „<unnamed-tag>”
+d:\projekty\vs\amazeing\amazeing\amazeing.h(6): error C2079: "Enemy" używa niezdefiniowanego class "<unnamed-tag>"

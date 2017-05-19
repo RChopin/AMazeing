@@ -1,0 +1,5 @@
+﻿  AMazeing.cpp
+d:\projekty\vs\amazeing\amazeing\amazeing.cpp(20): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+d:\projekty\vs\amazeing\amazeing\amazeing.cpp(21): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+  AMazeing.vcxproj -> D:\Projekty\VS\AMazeing\x64\Debug\AMazeing.exe
+  AMazeing.vcxproj -> D:\Projekty\VS\AMazeing\x64\Debug\AMazeing.pdb (Partial PDB)

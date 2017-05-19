@@ -5,6 +5,7 @@
 #include "AMazeing.h"
 #include <iostream>
 #include <ctime>
+#include <string>
 using namespace std;
 
 void EndThis() {
@@ -34,12 +35,12 @@ int main()
 
 	cout << PlayerHealth << " hp" << endl;
 	*/
-	string EnemyName = "Capitan Spider";
+	//string EnemyName = "Capitan Spider";
 	cout << "You have met " << EnemyName << endl << "You can attack it by typing 1 or 2" << endl << "1 - Sword (27-45 dmg)" << endl << "2 - SpiderKiller 1 time use (97 dmg)" << endl << "Or you can run by typing 3 (loosing 20% of power)" << endl;
 	bool canUseSpiderKiller = 1;
 	int Activity1;
 	
-	while (EnemyHealth > 0, PlayerHealth > 0) {
+	while (EnemyHealth > 0) {
 		cout << "Chose your weapon" << endl;
 		cin >> Activity1;
 		if (Activity1 == 1) {
@@ -53,7 +54,7 @@ int main()
 			
 			canBeAttacked = 1;
 
-			cout << PlayerHealth << " hp, you have" << endl;
+			cout << "You have " << PlayerHealth << " hp" << endl;
 			system("pause");
 		}  
 		if (Activity1 == 2 && canUseSpiderKiller == 1) {
@@ -66,8 +67,7 @@ int main()
 			canUseSpiderKiller = 0;
 			canBeAttacked = 1;
 
-
-			cout << PlayerHealth << " hp, you have" << endl;
+			cout << "You have " << PlayerHealth << " hp" << endl;
 			system("pause");
 
 		}  
@@ -93,7 +93,7 @@ int main()
 			e1->attack(c);
 
 		}
-		if (PlayerHealth <= 0) { cout << "YOU HAVE DIED!" << endl; }
+		if (PlayerHealth <= 0) { cout << "YOU HAVE DIED!" << endl; EnemyHealth = 0; }
 	};
 
 
